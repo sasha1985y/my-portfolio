@@ -17,8 +17,8 @@ function Cars({ cars }: CarsProps): JSX.Element {
   return (
     <div className={styles.cars_container}>
       {cars.map((car, index) => (
-        <div className={classNames(styles.cars_slide , car.toLowerCase(), { active: index === activeCarIndex })} key={car} onClick={() => handleClick(index)}>
-          <h3 className={styles.ars_slide_h3}>{car}</h3>
+        <div className={classNames("slide" , car.toLowerCase(), { active: index === activeCarIndex })} key={car} onClick={() => handleClick(index)}>
+          <h3>{car}</h3>
         </div>
       ))}
       <ul>
