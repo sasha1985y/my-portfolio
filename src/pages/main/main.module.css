@@ -5,10 +5,10 @@
     height: 100%;
 }
 
-.main_body_container {
+/*.main_body_container {
     background: url(https://media.giphy.com/media/ZwMF9XIF7eo9i/giphy.gif) no-repeat center fixed ;
     background-size: 36vw 100vh; height: 100vh;
-}
+}*/
 
 .main_container {
     background: url(../public/img/обложка.png) no-repeat center ;
