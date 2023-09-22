@@ -6,8 +6,10 @@ function Main(): JSX.Element {
     <div className={styles.grand_main_body_container}>
       <div className={styles.main_body_container}>
         <div className={styles.main_container}>
-          <h1>Главная страница всех портфолио</h1>
-          <Link to="/cars">Cars</Link>;
+          <div className={styles.main_container}>
+            <h1>Главная страница всех портфолио</h1>
+            <Link to="/cars">Cars</Link>;
+          </div>
         </div>
       </div>
     </div>
