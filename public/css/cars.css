@@ -69,15 +69,15 @@
   background-size: cover;
 }
 
-.main-body-container {
+/*.main-body-container {
   background: url(https://media.giphy.com/media/ZwMF9XIF7eo9i/giphy.gif) no-repeat center fixed ;
   background-size: 40vw 100vh;
   height: 100vh;
-}
+}*/
 
-.main-body-container {
+/*.main-body-container {
   background: url(../public/img/обложка.png) no-repeat center ;
   background-size: 40vw 100vh;
   height: 100vh;
-}
+}*/
 
