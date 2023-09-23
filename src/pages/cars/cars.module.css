@@ -18,4 +18,69 @@
   align-items: center;
 }
 
+@media (orientation: landscape) and (max-width: 640px) {
+  .cars_links {
+    position: inherit;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  .cars_container {
+    width: 110%;
+    display: flex;
+    padding: 6% 10% 7%;
+    font-family: 'Muli', sans-serif;
+    overflow: hidden;
+    margin: 0;
+    background: #240c41;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cars_container ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 10em;
+    margin-block-end: 1em;
+    margin-inline-start: -8px;
+    margin-inline-end: 6px;
+    padding-inline-start: 5px;
+  }
+
+}
+
+@media (orientation: portrait) and (max-width: 360px) {
+  .cars_links {
+    position: inherit;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  .cars_container {
+    width: 100%;
+    display: flex;
+    padding: 6% 10% 7%;
+    font-family: 'Muli', sans-serif;
+    overflow: hidden;
+    margin: 0;
+    background: #240c41;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cars_container ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 10em;
+    margin-block-end: 1em;
+    margin-inline-start: -5px;
+    margin-inline-end: -26px;
+    padding-inline-start: 5px;
+  }
+}
+
 
