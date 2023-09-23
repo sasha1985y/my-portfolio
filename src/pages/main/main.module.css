@@ -9,7 +9,6 @@
     background: url(https://i.gifer.com/GEBR.gif) no-repeat center fixed ;
     background-size: 36vw 100vh;
     height: 100vh;
-    background-size: 91vw 100vh;
 }
 
 .main_container {
@@ -28,6 +27,20 @@
     .main_body_container {
         background: url(https://i.gifer.com/GEBR.gif) no-repeat center fixed ;
         background-size: 91vw 100vh;
+        height: 100vh;
+    }
+}
+
+@media (orientation: landscape) and (max-width: 640px) {
+    .main_container {
+        background: url(https://thumb.cloud.mail.ru/weblink/thumb/xw1/BHj6/qhhXF49hS) no-repeat center;
+        background-size: 40vw 100vh;
+        height: 100vh;
+    }
+
+    .main_body_container {
+        background: url(https://i.gifer.com/GEBR.gif) no-repeat center fixed ;
+        background-size: 36vw 100vh;
         height: 100vh;
     }
 }
