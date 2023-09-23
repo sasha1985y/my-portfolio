@@ -15,3 +15,11 @@
     background-size: 40vw 100vh;
     height: 100vh;
 }
+
+@media (orientation: portrait) and (max-width: 360px) {
+    .main_container {
+        background: url(https://thumb.cloud.mail.ru/weblink/thumb/xw1/BHj6/qhhXF49hS) no-repeat center;
+        background-size: 92vw 100vh;
+        height: 100vh;
+    }
+}
